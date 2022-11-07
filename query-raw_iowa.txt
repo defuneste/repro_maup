@@ -1,0 +1,8 @@
+[out:json][timeout:25];
+{{geocodeArea:Iowa}}->.searchArea;
+(
+  relation["admin_level"="6"](area.searchArea);
+);
+out body;
+>;
+out skel qt;
